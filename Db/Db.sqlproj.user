@@ -3,5 +3,7 @@
   <PropertyGroup>
     <TargetConnectionString>Data Source=logs-sv.database.windows.net,1433;Initial Catalog=logs;Persist Security Info=True;User ID=jason;Password=;Pooling=False;Multiple Active Result Sets=False;Connect Timeout=60;Encrypt=False;Trust Server Certificate=False</TargetConnectionString>
     <TargetDatabase>logs</TargetDatabase>
+    <StartupScript>(Blank)</StartupScript>
+    <StartAction>StartNone</StartAction>
   </PropertyGroup>
 </Project>
